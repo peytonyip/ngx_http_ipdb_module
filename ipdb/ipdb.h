@@ -47,6 +47,8 @@ typedef struct ipdb_reader {
     unsigned char *data;
 } ipdb_reader;
 
+typedef unsigned char u_char;
+
 int ipdb_reader_new(const char *file, ipdb_reader **reader);
 
 void ipdb_reader_free(ipdb_reader **reader);
